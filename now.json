@@ -1,0 +1,867 @@
+{
+  "version": 2,
+  "name": "sika.link",
+  "routes": [
+    {
+      "src": "^/redis(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://docs.google.com/presentation/d/1bcsrSxARDd3XnLME5lkLwmwx6mr5Tf8OBeEztphrilM/edit"
+      }
+    },
+    {
+      "src": "^/docker-ibm(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/ondrejsika/docker-training-ibm#docker-training-for-ibm"
+      }
+    },
+    {
+      "src": "^/cncf-sk-ci(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://docs.google.com/presentation/d/1Wt0NIbaN8HWbQ-C91t-NYwGDuqogvydHVlyOayH6tNI/edit"
+      }
+    },
+    {
+      "src": "^/gitlab(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://docs.google.com/presentation/d/1zwNl5r85_L02xv9Y7PwYgu89vAFIyLM5Yl9V9hkc6mo/edit"
+      }
+    },
+    {
+      "src": "^/wishlist(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://docs.google.com/spreadsheets/d/16UZeSlNn0NxUBCA4Qzq4YEa-LBaLIcfx3h1VNKGyCAI/edit"
+      }
+    },
+    {
+      "src": "^/toolchain(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.cz/clanky/toolchain"
+      }
+    },
+    {
+      "src": "^/seed-card(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://docs.google.com/document/d/1Ho6DHfB44rntcIxkRxbwCCazU8ahtZk9SaEzb5w7JNM/edit#"
+      }
+    },
+    {
+      "src": "^/sraz19(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://docs.google.com/presentation/d/1wbjwO9huhqklDDLX5iPzeh1328Rv6Dp7hG-8JC4i6MQ"
+      }
+    },
+    {
+      "src": "^/clt2019(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/ondrejsika/clt2019"
+      }
+    },
+    {
+      "src": "^/slack-invite(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://join.slack.com/t/ondrejsikaskoleni/shared_invite/enQtNTYxOTgwOTkxNTg2LTEyNTI3OWVkY2JiYWI4MGE4NzYxOWJlOTNkMzVkZDVhYmI2ZmViYTVkZWFhNjhjYWM3NDE2OGIxNTJjZTI5MTE"
+      }
+    },
+    {
+      "src": "^/gitlab-ci-talk(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://docs.google.com/presentation/d/1n90BytQfWCRYTJfUqeY7dJWlZpzoTWIbn5lFviQXBRE/edit"
+      }
+    },
+    {
+      "src": "^/docker-pdf(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://drive.google.com/drive/folders/19VRAfLka03l5OSkuLhy7kRXjmyVABkyK"
+      }
+    },
+    {
+      "src": "^/docker(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/ondrejsika/docker-training"
+      }
+    },
+    {
+      "src": "^/spel-docker(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://drive.google.com/drive/folders/1scAct5Max5uiZ4jNppQpzl30XH2w1ZWx?usp=sharing"
+      }
+    },
+    {
+      "src": "^/k8s(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/ondrejsika/kubernetes-training"
+      }
+    },
+    {
+      "src": "^/k8s-slides(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://docs.google.com/presentation/d/1K_HV0T89DUf6dGWnJWgrfmpTrsx96TMxJuFby_9TrUk/edit"
+      }
+    },
+    {
+      "src": "^/kompoj-docker(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://docs.google.com/presentation/d/1DvtWMc4zOABAqR-tbbB33vF5OcG6abFWYPmxb-FhxFc/edit"
+      }
+    },
+    {
+      "src": "^/tc-docker(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://drive.google.com/drive/folders/1nrFxBo2R2ckniuKufSB4uuaO6DSrohmQ"
+      }
+    },
+    {
+      "src": "^/docker-for-windows(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe"
+      }
+    },
+    {
+      "src": "^/docker-for-mac(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://download.docker.com/mac/stable/Docker.dmg"
+      }
+    },
+    {
+      "src": "^/docker-toolbox-windows(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://download.docker.com/win/stable/DockerToolbox.exe"
+      }
+    },
+    {
+      "src": "^/docker-toolbox-mac(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://download.docker.com/mac/stable/DockerToolbox.pkg"
+      }
+    },
+    {
+      "src": "^/gitlab-kosice(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://drive.google.com/drive/folders/10OzsAsxi5jOQACnW4pMKogJJPhBaaKTK"
+      }
+    },
+    {
+      "src": "^/docker(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://docs.google.com/presentation/d/1s76CMCqpt2MzCvfAcQzyBu5QwQ7aQY-ZyvEgim0dUaM"
+      }
+    },
+    {
+      "src": "^/gitlab-ci(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://docs.google.com/presentation/d/13fHcnMmr6Dmf0o5C7gQH4RaM1Bi6gc9qIdS-EaRslOs/edit?usp=sharing"
+      }
+    },
+    {
+      "src": "^/ss-ci(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://docs.google.com/presentation/d/1dRNMBIDgGu3fp2tJy-emltHHjxWzYGjixzedTVUu_fI"
+      }
+    },
+    {
+      "src": "^/tf-docker(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://drive.google.com/drive/folders/1R6lY9CyYtBCPs-8jDhh_2aBvqZ-KCNJ7"
+      }
+    },
+    {
+      "src": "^/dd-docker(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://drive.google.com/drive/folders/1Ukii5E_ltlSMa0f5YycgWWPk5ldl72Bk"
+      }
+    },
+    {
+      "src": "^/wy-ci(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://drive.google.com/drive/folders/1JfSh_IS_qR5xlcq7d29n1cHYjXfqAXGB"
+      }
+    },
+    {
+      "src": "^/fio-git(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://docs.google.com/presentation/d/1tnLNvyks8IhRo13gugCShWElQyhDUOLyOGKZx9h7Lkc"
+      }
+    },
+    {
+      "src": "^/sl-gitlab-ci(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://docs.google.com/presentation/d/1YMiXrgWdvYjo_C9BOda6btZRpo1VxCMRrtnAZ8rLOXI"
+      }
+    },
+    {
+      "src": "^/sl-docker(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://drive.google.com/drive/folders/1Qq4MCrYxp44F0eCzRcNBY80ygdl0YM80"
+      }
+    },
+    {
+      "src": "^/wy(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://drive.google.com/drive/folders/1jyJNc7g-rG3YRhU0f7EPS7PcabLGhfby"
+      }
+    },
+    {
+      "src": "^/linuxdays2018(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.cz/blog/2018/gitlab-ci-docker-linuxdays/"
+      }
+    },
+    {
+      "src": "^/18.3(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://drive.google.com/drive/folders/1PSWO-it770arpGBOZndGWu8KKoL3Gqgb"
+      }
+    },
+    {
+      "src": "^/orange-git(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://drive.google.com/drive/folders/17i0somtnEEaX_iqJ8RiaFO41UrgfIVpy"
+      }
+    },
+    {
+      "src": "^/orange-gitlab(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://drive.google.com/drive/folders/1RfOa6n7eb1HunvozINDgIPjFgC2edT7s"
+      }
+    },
+    {
+      "src": "^/orange-gitlab-ci(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://drive.google.com/drive/folders/1RfOa6n7eb1HunvozINDgIPjFgC2edT7s"
+      }
+    },
+    {
+      "src": "^/azd(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://drive.google.com/drive/folders/1RfpwmC5yU_J8GOr64lwyop2THXf72meU"
+      }
+    },
+    {
+      "src": "^/ants(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://drive.google.com/drive/folders/1b8MFozzPBboQA1vO5S3b7_J8hoFLsUFW"
+      }
+    },
+    {
+      "src": "^/k8s-intro-cncfsk(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://docs.google.com/presentation/d/1m1NE3hlGsUpJNtmgGzygw5fB0PeFHTqkkqjdwY1c6ME/edit"
+      }
+    },
+    {
+      "src": "^/kubeconfig(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://raw.githubusercontent.com/ondrejsika/kubeconfig-sikademo/master/kubeconfig"
+      }
+    },
+    {
+      "src": "^/git(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://docs.google.com/presentation/d/12AmlyT9ak50TEeEoTaN4gdM1QKHtaQXFeyzk1h4kSrI/edit"
+      }
+    },
+    {
+      "src": "^/cloudflare(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://drive.google.com/drive/folders/11IlT3RjRbaCD_xmIR8yHN3If9L2VJMHT"
+      }
+    },
+    {
+      "src": "^/pyconsk2018(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.cz/blog/2018/python-libraries-for-bitcoin-and-ethereum-pycon-sk-2018/?x_sika_source=slides"
+      }
+    },
+    {
+      "src": "^/pyconsk18(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.cz/blog/2018/python-libraries-for-bitcoin-and-ethereum-pycon-sk-2018/?x_sika_source=slides"
+      }
+    },
+    {
+      "src": "^/if18(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.cz/blog/2018/i3-tiling-window-manager-install-fest-2018/?x_sika_source=slides"
+      }
+    },
+    {
+      "src": "^/91e6d3e68d79(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.cz/blog/2018/i3-tiling-window-manager-install-fest-2018/?x_sika_source=twitter-slides"
+      }
+    },
+    {
+      "src": "^/newsletter-english(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "http://eepurl.com/djO9YD"
+      }
+    },
+    {
+      "src": "^/docker-bzzlpeuy(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://sedu.cz/terminy/skoleni-dockeru-praha-29-01-2018.html?x_source=email_2017-01-22"
+      }
+    },
+    {
+      "src": "^/pojistovnacs(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://drive.google.com/drive/folders/1YttF--C1FzxXHacbfZkLcbmg1iOIAsn-"
+      }
+    },
+    {
+      "src": "^/pojistovnacs18.1(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://drive.google.com/drive/folders/1YttF--C1FzxXHacbfZkLcbmg1iOIAsn-"
+      }
+    },
+    {
+      "src": "^/ln(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.cz/blog/2018/plzensky-barcamp-lightning-network-aneb-bitcoin-2-0/?x_source=ln"
+      }
+    },
+    {
+      "src": "^/ln.1(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.cz/blog/2018/plzensky-barcamp-lightning-network-aneb-bitcoin-2-0/?x_source=ln.1"
+      }
+    },
+    {
+      "src": "^/devheaven2018/.gitlab-ci.yml(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://gist.githubusercontent.com/ondrejsika/a46e99ba53289564745b3dafa2be2b3d/raw/3e07842822babe56f10ec25a5b7afbc7af01c59a/.gitlab-ci.yml"
+      }
+    },
+    {
+      "src": "^/devheaven2018(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.cz/blog/2018/talk-automatizace-pomoci-gitlab-ci-a-dockeru/?x_source=slides"
+      }
+    },
+    {
+      "src": "^/git-2018-04-20(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://drive.google.com/drive/folders/1m2A8LVoR2OTZjb7f4x4XFbpfoDu8542H"
+      }
+    },
+    {
+      "src": "^/docker-bzzlpeuy(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://sedu.cz/terminy/skoleni-dockeru-praha-29-01-2018.html?x_source=email_2017-01-22"
+      }
+    },
+    {
+      "src": "^/git-umeiggpu(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://sedu.cz/terminy/workshop-gitu-pro-zacatecniky-praha-05-02-2018.html?x_source=email_2017-01-22"
+      }
+    },
+    {
+      "src": "^/gitlab-slzxhrun(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://sedu.cz/terminy/gitlab-a-continues-integration-praha-06-02-2018.html?x_source=email_2017-01-22"
+      }
+    },
+    {
+      "src": "^/storaenso(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://drive.google.com/drive/folders/1Uxm00kRS42hK3nhIbiVJeE4NB9cYY-Sc"
+      }
+    },
+    {
+      "src": "^/teched18(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.cz/blog/2018/teched/"
+      }
+    },
+    {
+      "src": "^/storaenso18(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://drive.google.com/drive/folders/1Uxm00kRS42hK3nhIbiVJeE4NB9cYY-Sc"
+      }
+    },
+    {
+      "src": "^/tabor19all(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://www.flickr.com/photos/ondrejsika/albums/72157709678944291"
+      }
+    },
+    {
+      "src": "^/tabor19po(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://www.flickr.com/photos/ondrejsika/albums/72157709679529962"
+      }
+    },
+    {
+      "src": "^/tabor19all-zip(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://dr.h4y.cz/select.zip"
+      }
+    },
+    {
+      "src": "^/tabor19po-zip(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://dr.h4y.cz/portraits.zip"
+      }
+    },
+    {
+      "src": "^/docker(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://docs.google.com/presentation/d/1-V1xrTK4VQQPCxWuteHXyDI7h__uHW8T1T-nM3MKYc8"
+      }
+    },
+    {
+      "src": "^/docker-18-03-16(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://drive.google.com/drive/folders/17R4EoI4Z1upNZk5ChawFzXgQDCAgMXga"
+      }
+    },
+    {
+      "src": "^/blockchain-2018-03-28(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://drive.google.com/drive/folders/1FPeqyrx0-V-gvrpsMMb1MObhJNu17nFX"
+      }
+    },
+    {
+      "src": "^/18.1(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://drive.google.com/drive/folders/1L2DLyT1hZsQ076i3isfSwoY-02mZJ65C"
+      }
+    },
+    {
+      "src": "^/18.2(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://drive.google.com/drive/folders/1icLj8pmKwJ9xi4RL4sf-ABt5Sgw5fy4t"
+      }
+    },
+    {
+      "src": "^/mongo(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://drive.google.com/drive/folders/1EEXj0w6HOhP80ctiN_v3UUca53ZpQLhS"
+      }
+    },
+    {
+      "src": "^/mongo18.1(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://drive.google.com/drive/folders/1ccTw_qY183961J94TBPzIWn7Z1YUvVB3"
+      }
+    },
+    {
+      "src": "^/gitlab-ci(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://drive.google.com/drive/folders/1K5QTXRPuaTISOPOhmR6iULKiqEMEBnI-"
+      }
+    },
+    {
+      "src": "^/gitlab-ci18.1(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://drive.google.com/drive/folders/1yiUls5DaV_S7u3lJf7I7oMM67_PrTCDq"
+      }
+    },
+    {
+      "src": "^/mongo-17-12-19(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": " https://drive.google.com/drive/folders/1QR22PNAz2XBP4J7OjSqnRMDWUR-Hs9pJ"
+      }
+    },
+    {
+      "src": "^/docker-18-02-08(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": " https://skoleni-docker.cz/talks/2018-02-08-zlin/"
+      }
+    },
+    {
+      "src": "^/followup-zlin-18-02-08(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": " https://skoleni-docker.cz/talks/2018-02-08-zlin/?utm_source=followup-zlin-180208&x_source=followup-zlin-180208"
+      }
+    },
+    {
+      "src": "^/docker-17-11-30(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": " https://skoleni-docker.cz/talks/2017-11-30-olomouc/"
+      }
+    },
+    {
+      "src": "^/git-byznys(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": " https://drive.google.com/drive/folders/1SbaAFlQe4-yM0CD5POqu4Ak1wJ4RmXJq"
+      }
+    },
+    {
+      "src": "^/skoleni-git(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": " https://sedu.cz/terminy/workshop-gitu-pro-zacatecniky-praha-15-11-2017.html"
+      }
+    },
+    {
+      "src": "^/skoleni-gitlab(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": " https://sedu.cz/terminy/gitlab-a-continues-integration-praha-16-11-2017.html"
+      }
+    },
+    {
+      "src": "^/skoleni-docker(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": " https://sedu.cz/terminy/skoleni-dockeru-praha-29-01-2018.html"
+      }
+    },
+    {
+      "src": "^/docker-lukapo(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://sites.google.com/ondrejsika.com/skolenibysikacz/2017-08-23-docker-lukapo"
+      }
+    },
+    {
+      "src": "^/root-git(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://drive.google.com/drive/folders/0Byftap_VmY22WHpTSEl6UWtldEE"
+      }
+    },
+    {
+      "src": "^/lbms-git(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://sites.google.com/ondrejsika.com/skolenibysikacz/2017-06-08-lbms-git"
+      }
+    },
+    {
+      "src": "^/sedu-git(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://sites.google.com/ondrejsika.com/skolenibysikacz/2017-06-21-sedu-git"
+      }
+    },
+    {
+      "src": "^/xorux-git(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://speakerdeck.com/ondrejsika/introduction-to-git-xorux-s-dot-r-o-2-dot-8-2017"
+      }
+    },
+    {
+      "src": "^/docker-root(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://sites.google.com/ondrejsika.com/skolenibysikacz/2017-08-15-root-cz-docker-zacatecnici"
+      }
+    },
+    {
+      "src": "^/docker-root-2(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://sites.google.com/ondrejsika.com/skolenibysikacz/2017-08-22-root-cz-docker-pokrocily"
+      }
+    },
+    {
+      "src": "^/eltodo-docker(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://sites.google.com/ondrejsika.com/skolenibysikacz/2017-09-05-eltodo-docker"
+      }
+    },
+    {
+      "src": "^/ssis(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/ondrejsika/sedastrela-is"
+      }
+    },
+    {
+      "src": "^/jasan17(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://speakerdeck.com/ondrejsika/efektivni-komunikace-s-rodici-jsanan-2017"
+      }
+    },
+    {
+      "src": "^/mongo(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrejsika.com/skoleni/mongo"
+      }
+    },
+    {
+      "src": "^/mongo2(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://sites.google.com/ondrejsika.com/skolenibysikacz/2017-06-27-datascript-mongodb"
+      }
+    },
+    {
+      "src": "^/root-mongo(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://sites.google.com/ondrejsika.com/skolenibysikacz/2017-07-21-root-cz-mongodb"
+      }
+    },
+    {
+      "src": "^/morning-mongo(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://drive.google.com/drive/folders/1Dtj_LUV-8PNLI-wpX72nNwtt6730OZjL"
+      }
+    },
+    {
+      "src": "^/100mega(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrejsika.com/skoleni/git/100mega.html"
+      }
+    },
+    {
+      "src": "^/minezcash17(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://speakerdeck.com/ondrejsika/mine-zcash-bitcoin-meetup-praha-2017"
+      }
+    },
+    {
+      "src": "^/zcash16(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://speakerdeck.com/ondrejsika/zcash-bitcoin-meetup-praha-2016"
+      }
+    },
+    {
+      "src": "^/git-ipr(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://speakerdeck.com/ondrejsika/skoleni-git-21-11-2016"
+      }
+    },
+    {
+      "src": "^/povidani-do-bitcoinu(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "http://ondrejsika.com/talks/#bitcoin-pilsen-2016"
+      }
+    },
+    {
+      "src": "^/uvod-do-bitcoinu(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "http://ondrejsika.com/talks/#bitcoin-pilsen-2015"
+      }
+    },
+    {
+      "src": "^/merged-mining-ctjb(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "http://ondrejsika.com/talks/#ctjb-2015"
+      }
+    },
+    {
+      "src": "^/kurzy-spse(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://docs.google.com/forms/d/1fT3cmoIdS_RXLR47zmjCwX8I6kc2AKO0P3VXZLfeX20/viewform?usp=send_form"
+      }
+    },
+    {
+      "src": "^/skoleni-git-newsletter(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "http://eepurl.com/ba5EJb"
+      }
+    },
+    {
+      "src": "^/newsletter(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "http://eepurl.com/ba5EJb"
+      }
+    },
+    {
+      "src": "^/principy-pocitacu(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "http://ondrejsika.com/edu/mff/courses/principy-pocitacu.html"
+      }
+    },
+    {
+      "src": "^/principy-pocitacu-2014(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "http://ondrejsika.com/edu/mff/courses/2014-principy-pocitacu.html"
+      }
+    },
+    {
+      "src": "^/python-kniha(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "http://ondrejsika.com/books/python-kniha/"
+      }
+    },
+    {
+      "src": "^/flask-kniha(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "http://ondrejsika.com/books/flask-kniha/"
+      }
+    },
+    {
+      "src": "^/python-kniha-code-examples(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/ondrejsika/python-kniha-code-examples"
+      }
+    },
+    {
+      "src": "^/flask-kniha-code-examples(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/ondrejsika/flask-kniha-code-examples"
+      }
+    },
+    {
+      "src": "^/bitcoin-bern-2015(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrejsika.com/talks/#bitcoin-bern-2015"
+      }
+    },
+    {
+      "src": "^/pyconsk2016(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrejsika.com/talks/#pyconsk-2016"
+      }
+    },
+    {
+      "src": "^/merged-mining-pilsen(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://speakerdeck.com/ondrejsika/merged-mining-pilsen-bitcoin-meetup"
+      }
+    },
+    {
+      "src": "^/eyelevel(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrejsika.com/skoleni/git/eyelevel.html"
+      }
+    },
+    {
+      "src": "^/arnhem(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrejsika.com/meetups/bitcoin-plzen/#meetup-6"
+      }
+    },
+    {
+      "src": "^/aw-dev(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrejsika.com/skoleni/git/aw-dev.html"
+      }
+    },
+    {
+      "src": "^/vistag-git(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://sites.google.com/ondrejsika.com/skolenibysikacz/2017-09-29-vistag-git"
+      }
+    },
+    {
+      "src": "^/root-docker-1(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://sites.google.com/ondrejsika.com/skolenibysikacz/2017-10-02-root-cz-docker-zacatecnici"
+      }
+    },
+    {
+      "src": "^/root-docker-advanced(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://speakerdeck.com/ondrejsika/docker-advanced-root-dot-cz-9-dot-10-dot-8-2017"
+      }
+    }
+  ]
+}
