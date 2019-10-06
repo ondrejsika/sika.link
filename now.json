@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/linuxdays2019(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/ondrejsika/linuxdays2019-terraform"
+      }
+    },
+    {
       "src": "^/redis(/|)$",
       "status": 302,
       "headers": {
