@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/do-ref(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://m.do.co/c/3a51a65540fd"
+      }
+    },
+    {
       "src": "^/linuxdays2019(/|)$",
       "status": 302,
       "headers": {
