@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/feedbackform(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://docs.google.com/document/d/1tYUhVBgMduPsPTQ-No2Fd_a0uy_aZk6RdO0hs6FDDEc/edit"
+      }
+    },
+    {
       "src": "^/do-ref(/|)$",
       "status": 302,
       "headers": {
