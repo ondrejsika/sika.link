@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/javadays2019(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.cz/blog/javadays2019/"
+      }
+    },
+    {
       "src": "^/feedbackform(/|)$",
       "status": 302,
       "headers": {
