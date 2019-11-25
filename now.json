@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/epo(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://adisepo.mfcr.cz/adistc/adis/idpr_epo/epo2/spol/soubor_vyber.faces"
+      }
+    },
+    {
       "src": "^/javadays2019(/|)$",
       "status": 302,
       "headers": {
