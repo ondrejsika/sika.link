@@ -209,7 +209,7 @@
       "src": "^/gitlab-ci(/|)$",
       "status": 302,
       "headers": {
-        "Location": "https://docs.google.com/presentation/d/13fHcnMmr6Dmf0o5C7gQH4RaM1Bi6gc9qIdS-EaRslOs/edit?usp=sharing"
+        "Location": "https://github.com/ondrejsika/gitlab-ci-training"
       }
     },
     {
