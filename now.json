@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/proxmox(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/ondrejsika/proxmox-training"
+      }
+    },
+    {
       "src": "^/epo(/|)$",
       "status": 302,
       "headers": {
