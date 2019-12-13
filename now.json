@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/docker-12-2019(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://docs.google.com/presentation/d/1LpfD2uy9BeR76SscumM5cdWvLzxSH_8r90VAXSaKQzE/edit"
+      }
+    },
+    {
       "src": "^/proxmox(/|)$",
       "status": 302,
       "headers": {
