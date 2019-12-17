@@ -3,6 +3,27 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/ccc2019(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "/36c3"
+      }
+    },
+    {
+      "src": "^/36c3(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://events.ccc.de/congress/2019/wiki/index.php/Main_Page"
+      }
+    },
+    {
+      "src": "^/ccc(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://events.ccc.de/congress/"
+      }
+    },
+    {
       "src": "^/docker-12-2019(/|)$",
       "status": 302,
       "headers": {
