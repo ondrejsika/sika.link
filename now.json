@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/novinky2020-dt(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.cz/blog/novinky2020/?utm_source=direct&utm_medium=telegram&utm_campaign=novinky2020"
+      }
+    },
+    {
       "src": "^/ccc2019(/|)$",
       "status": 302,
       "headers": {
