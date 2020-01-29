@@ -3,6 +3,34 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/slack-sikapublic(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://join.slack.com/t/sikapublic/shared_invite/enQtODk3NzA1NjQxNTM4LTdlNzljOWE0YWZjZjhlYWZmMDdjMWU3NDY0OTM1ZWI5M2RhMmIyYTI0YTgxMmQ4Y2I4ZmU0OTMwZjE3NWQ0OGM"
+      }
+    },
+    {
+      "src": "^/cajcz(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "/amana"
+      }
+    },
+    {
+      "src": "^/amana(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://www.google.com/maps/place/Obchod+s+%C4%8Dajem+Amana/@50.0799888,14.4237267,21z/data=!4m5!3m4!1s0x470b94f2854bfd43:0xd87d60b925670fa5!8m2!3d50.0800485!4d14.4236923"
+      }
+    },
+    {
+      "src": "^/tea-mountain(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://www.google.com/maps/place/Tea+Mountain/@50.0939307,14.4546564,17z/data=!3m1!4b1!4m5!3m4!1s0x470b94a690dccad1:0x28f5ade33cb73b56!8m2!3d50.0939307!4d14.4568451"
+      }
+    },
+    {
       "src": "^/novinky2020-de(/|)$",
       "status": 302,
       "headers": {
