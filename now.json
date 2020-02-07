@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/vnitroblock(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://www.google.com/maps/place/VNITROBLOCK/@50.1019497,14.4471346,17z/data=!3m1!4b1!4m5!3m4!1s0x470b94b1a6b253bd:0xb18c9912314fcb65!8m2!3d50.1019463!4d14.4493286"
+      }
+    },
+    {
       "src": "^/slack-sikapublic(/|)$",
       "status": 302,
       "headers": {
