@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/if20-terraform(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/ondrejsika/workshop-custom-terraform-provider"
+      }
+    },
+    {
       "src": "^/if20-zeit(/|)$",
       "status": 302,
       "headers": {
