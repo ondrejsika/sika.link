@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/if20-zeit(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/ondrejsika/installfest2020-zeit"
+      }
+    },
+    {
       "src": "^/vnitroblock(/|)$",
       "status": 302,
       "headers": {
