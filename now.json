@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/example-mongodb-clusters(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/ondrejsika/example-mongodb-clusters"
+      }
+    },
+    {
       "src": "^/if20-terraform(/|)$",
       "status": 302,
       "headers": {
