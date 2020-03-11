@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/git(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/ondrejsika/git-training"
+      }
+    },
+    {
       "src": "^/example-mongodb-clusters(/|)$",
       "status": 302,
       "headers": {
@@ -437,7 +444,7 @@
       }
     },
     {
-      "src": "^/git(/|)$",
+      "src": "^/git-slides(/|)$",
       "status": 302,
       "headers": {
         "Location": "https://docs.google.com/presentation/d/12AmlyT9ak50TEeEoTaN4gdM1QKHtaQXFeyzk1h4kSrI/edit"
