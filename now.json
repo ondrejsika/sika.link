@@ -115,6 +115,13 @@
       }
     },
     {
+      "src": "^/prox(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/ondrejsika/proxmox-training"
+      }
+    },
+    {
       "src": "^/proxmox(/|)$",
       "status": 302,
       "headers": {
