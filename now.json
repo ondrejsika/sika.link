@@ -3,6 +3,20 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/prom(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/ondrejsika/prometheus-training"
+      }
+    },
+    {
+      "src": "^/proxmox(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/ondrejsika/prometheus-training"
+      }
+    },
+    {
       "src": "^/feedbackform-v8(/|)$",
       "status": 302,
       "headers": {
