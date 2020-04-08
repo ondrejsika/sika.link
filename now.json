@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/ansible(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/ondrejsika/ansible-training"
+      }
+    },
+    {
       "src": "^/newsletter-en(/|)$",
       "status": 302,
       "headers": {
