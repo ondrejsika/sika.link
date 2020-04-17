@@ -3,6 +3,20 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/tf(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/ondrejsika/terraform-training"
+      }
+    },
+    {
+      "src": "^/terraform(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/ondrejsika/terraform-training"
+      }
+    },
+    {
       "src": "^/forms(/|)$",
       "status": 302,
       "headers": {
