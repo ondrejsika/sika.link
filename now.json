@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/forms(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://docs.google.com/forms/u/0/"
+      }
+    },
+    {
       "src": "^/ansible-2020-04-10(/|)$",
       "status": 302,
       "headers": {
