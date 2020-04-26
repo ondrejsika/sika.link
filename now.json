@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/rancher(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/ondrejsika/rancher-training"
+      }
+    },
+    {
       "src": "^/tf(/|)$",
       "status": 302,
       "headers": {
