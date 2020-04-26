@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/devopslive-form(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://forms.gle/6ykHxJYKMfqwEozq6"
+      }
+    },
+    {
       "src": "^/rancher(/|)$",
       "status": 302,
       "headers": {
