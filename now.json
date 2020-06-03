@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/skoleni-terraform/1wziypk920(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.cz/verejne-terminy/terraform-brno-05-06-2020/?utm_source=facebook&utm_medium=simple&utm_campaign=lastcall-terraform-2020-06-05"
+      }
+    },
+    {
       "src": "^/skoleni-terraform/gt4mp9xr63(/|)$",
       "status": 302,
       "headers": {
