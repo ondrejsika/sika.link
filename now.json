@@ -3,6 +3,104 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/navolnenoze-git(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.cz/skoleni/git"
+      }
+    },
+    {
+      "src": "^/navolnenoze-gitlab-ci(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.cz/skoleni/gitlab-ci"
+      }
+    },
+    {
+      "src": "^/navolnenoze-docker(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.cz/skoleni/docker"
+      }
+    },
+    {
+      "src": "^/navolnenoze-kubernetes(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.cz/skoleni/kubernetes"
+      }
+    },
+    {
+      "src": "^/navolnenoze-terraform(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.cz/skoleni/terraform"
+      }
+    },
+    {
+      "src": "^/navolnenoze-rancher(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.cz/skoleni/rancher"
+      }
+    },
+    {
+      "src": "^/navolnenoze-proxmox(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.cz/skoleni/proxmox"
+      }
+    },
+    {
+      "src": "^/navolnenoze-prometheus(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.cz/skoleni/prometheus"
+      }
+    },
+    {
+      "src": "^/navolnenoze-ansible(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.cz/skoleni/ansible"
+      }
+    },
+    {
+      "src": "^/navolnenoze-go(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.cz/skoleni/go"
+      }
+    },
+    {
+      "src": "^/navolnenoze-python(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.cz/skoleni/python"
+      }
+    },
+    {
+      "src": "^/navolnenoze-django(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.cz/skoleni/django"
+      }
+    },
+    {
+      "src": "^/navolnenoze-consul(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.cz/skoleni/consul"
+      }
+    },
+    {
+      "src": "^/navolnenoze-vault(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.cz/skoleni/vault"
+      }
+    },
+    {
       "src": "^/ansible-slides(/|)$",
       "status": 302,
       "headers": {
