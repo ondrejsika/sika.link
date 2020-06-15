@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/navolnenoze-calendly(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://calendly.com/ondrejsika/evening-call"
+      }
+    },
+    {
       "src": "^/navolnenoze-git(/|)$",
       "status": 302,
       "headers": {
