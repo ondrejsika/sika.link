@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/bitcoin-newsletter(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://airtable.com/shrY4cQFHRviKKxbd"
+      }
+    },
+    {
       "src": "^/navolnenoze-calendly(/|)$",
       "status": 302,
       "headers": {
