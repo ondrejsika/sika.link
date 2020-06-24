@@ -3,6 +3,104 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/freelancingeu-git(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.com/training/git"
+      }
+    },
+    {
+      "src": "^/freelancingeu-gitlab-ci(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.com/training/gitlab-ci"
+      }
+    },
+    {
+      "src": "^/freelancingeu-docker(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.com/training/docker"
+      }
+    },
+    {
+      "src": "^/freelancingeu-kubernetes(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.com/training/kubernetes"
+      }
+    },
+    {
+      "src": "^/freelancingeu-terraform(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.com/training/terraform"
+      }
+    },
+    {
+      "src": "^/freelancingeu-rancher(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.com/training/rancher"
+      }
+    },
+    {
+      "src": "^/freelancingeu-proxmox(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.com/training/proxmox"
+      }
+    },
+    {
+      "src": "^/freelancingeu-prometheus(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.com/training/prometheus"
+      }
+    },
+    {
+      "src": "^/freelancingeu-ansible(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.com/training/ansible"
+      }
+    },
+    {
+      "src": "^/freelancingeu-go(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.com/training/go"
+      }
+    },
+    {
+      "src": "^/freelancingeu-python(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.com/training/python"
+      }
+    },
+    {
+      "src": "^/freelancingeu-django(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.com/training/django"
+      }
+    },
+    {
+      "src": "^/freelancingeu-consul(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.com/training/consul"
+      }
+    },
+    {
+      "src": "^/freelancingeu-vault(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.com/training/vault"
+      }
+    },
+    {
       "src": "^/bitcoin-newsletter(/|)$",
       "status": 302,
       "headers": {
