@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/skoleni/r3defrt42d(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.cz/news/devops-skoleni-v-cervenci-2020-07-08/?utm_source=email&utm_medium=simple&utm_campaign=campaign-2020-07-08"
+      }
+    },
+    {
       "src": "^/skoleni/hdwe36sw34(/|)$",
       "status": 302,
       "headers": {
