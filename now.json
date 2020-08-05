@@ -587,7 +587,7 @@
       "src": "^/docker(/|)$",
       "status": 302,
       "headers": {
-        "Location": "https://github.com/ondrejsika/docker-training"
+        "Location": "https://github.com/ondrejsika/docker-training#course"
       }
     },
     {
