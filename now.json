@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/devopslive-newsletter(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://airtable.com/shrr5tdiEOVtw04gU"
+      }
+    },
+    {
       "src": "^/skoleni/r3defrt42d(/|)$",
       "status": 302,
       "headers": {
