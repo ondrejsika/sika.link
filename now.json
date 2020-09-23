@@ -3,6 +3,20 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/k8s-prom(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/ondrejsika/ondrejsika-k8s-prom"
+      }
+    },
+    {
+      "src": "^/k8s-prom-slides(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://docs.google.com/presentation/d/1uanMthK4gSvY_F3PIhnN16xVeZeHLRZJGcEi8QXSbeQ/edit?usp=sharing"
+      }
+    },
+    {
       "src": "^/devopslive-newsletter(/|)$",
       "status": 302,
       "headers": {
