@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/vercel-meetup-1(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://docs.google.com/presentation/d/1PWauIgxyUlsICHJQvgOxlNjvNf4ZikzXtSfMu8Z0frE/edit?usp=sharing"
+      }
+    },
+    {
       "src": "^/k8s-prom(/|)$",
       "status": 302,
       "headers": {
