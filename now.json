@@ -377,7 +377,7 @@
       "src": "^/git(/|)$",
       "status": 302,
       "headers": {
-        "Location": "https://github.com/ondrejsika/git-training"
+        "Location": "https://github.com/ondrejsika/git-training#course"
       }
     },
     {
