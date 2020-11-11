@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/dol5(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/ondrejsika/devops-live-5"
+      }
+    },
+    {
       "src": "^/vercel-meetup-1(/|)$",
       "status": 302,
       "headers": {
