@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/devopslive-diskuze(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://meet.google.com/wxn-nmnb-oas"
+      }
+    },
+    {
       "src": "^/dol5(/|)$",
       "status": 302,
       "headers": {
