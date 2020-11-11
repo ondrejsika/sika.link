@@ -10,7 +10,7 @@
       }
     },
     {
-      "src": "^/dol5(/|)$",
+      "src": "^/devopslive5(/|)$",
       "status": 302,
       "headers": {
         "Location": "https://github.com/ondrejsika/devops-live-5"
