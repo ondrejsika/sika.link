@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/devopslive5-slides(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://docs.google.com/presentation/d/1m4hXHqIrveEAIQ3UrbRKEux7-gttxkOvad6p-yn12FU/edit"
+      }
+    },
+    {
       "src": "^/devopslive-diskuze(/|)$",
       "status": 302,
       "headers": {
