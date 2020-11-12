@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/tf-ci-slides(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://docs.google.com/presentation/d/1K1-bM3SORRLRmr1NBEP_0mWsVnD0GvZzHQCqKoJO4WY/edit"
+      }
+    },
+    {
       "src": "^/tf-ci(/|)$",
       "status": 302,
       "headers": {
