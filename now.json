@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/tf-ci(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/ondrejsika/example-terraform-gitlab-ci"
+      }
+    },
+    {
       "src": "^/devopslive5-slides(/|)$",
       "status": 302,
       "headers": {
