@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/do(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/ondrejsika/digital-ocean-training"
+      }
+    },
+    {
       "src": "^/elk(/|)$",
       "status": 302,
       "headers": {
