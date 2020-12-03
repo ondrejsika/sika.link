@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/elk(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/ondrejsika/elk-training"
+      }
+    },
+    {
       "src": "^/tf-ci-slides(/|)$",
       "status": 302,
       "headers": {
