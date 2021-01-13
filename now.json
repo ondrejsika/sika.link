@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/cloud-init(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/ondrejsika/devopslive-cloud-init"
+      }
+    },
+    {
       "src": "^/do(/|)$",
       "status": 302,
       "headers": {
