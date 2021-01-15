@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/terraform-2021-01-15-repo(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/sika-training-examples/terraform--2021-01-15"
+      }
+    },
+    {
       "src": "^/terraform-2021-01-15-slides(/|)$",
       "status": 302,
       "headers": {
