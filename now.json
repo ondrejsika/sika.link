@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/terraform-2021-01-15-slides(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://docs.google.com/presentation/d/1xTLzAmSH_F90khggAFCMQP18wB8GJpalpJmE3r4FPt4/edit"
+      }
+    },
+    {
       "src": "^/cloud-init(/|)$",
       "status": 302,
       "headers": {
