@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/devops-live-rke(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/ondrejsika/devopslive-rke"
+      }
+    },
+    {
       "src": "^/terraform-2021-01-15-repo(/|)$",
       "status": 302,
       "headers": {
