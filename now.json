@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/trz-skoleni(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://www.notion.so/TRZ-Skoleni-Materialy-e1a3f598a5bd4c4fa1ba9ac3a20f5397"
+      }
+    },
+    {
       "src": "^/devops-live-rke(/|)$",
       "status": 302,
       "headers": {
