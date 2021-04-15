@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/penta-terraform(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/ondrejsika/penta-terraform-demo"
+      }
+    },
+    {
       "src": "^/trz-skoleni(/|)$",
       "status": 302,
       "headers": {
