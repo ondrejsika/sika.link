@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/follow-up(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://airtable.com/shriyz784PLFwHQS5"
+      }
+    },
+    {
       "src": "^/penta-terraform(/|)$",
       "status": 302,
       "headers": {
