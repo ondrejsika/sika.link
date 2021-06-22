@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/email-na-vlastni-domene(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.cz/clanky/proc-mit-email-na-vlastni-domene/"
+      }
+    },
+    {
       "src": "^/follow-up(/|)$",
       "status": 302,
       "headers": {
