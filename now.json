@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/jak-pouzivam-email(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.cz/clanky/jak-pouzivam-email/"
+      }
+    },
+    {
       "src": "^/email-na-vlastni-domene(/|)$",
       "status": 302,
       "headers": {
