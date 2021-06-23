@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/vlastni-domena(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.cz/clanky/proc-by-kazdy-mel-mit-svoji-domenu/"
+      }
+    },
+    {
       "src": "^/jak-pouzivam-email(/|)$",
       "status": 302,
       "headers": {
