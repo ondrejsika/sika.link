@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/skoleniio-feedback(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://airtable.com/shrCqI6De3LCw8pwW"
+      }
+    },
+    {
       "src": "^/vlastni-domena(/|)$",
       "status": 302,
       "headers": {
