@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/warpcamp21(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/ondrejsika/warpcamp-2021-slides"
+      }
+    },
+    {
       "src": "^/skoleniio-feedback(/|)$",
       "status": 302,
       "headers": {
