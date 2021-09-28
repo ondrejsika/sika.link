@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/renata-sikova-pc-recovery-card(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://www.notion.so/ondrejsika/Renata-Sikova-s-Recovery-Card-v1-dev-2811214fa66f4740be21b5a5494f68d8"
+      }
+    },
+    {
       "src": "^/warpcamp21(/|)$",
       "status": 302,
       "headers": {
