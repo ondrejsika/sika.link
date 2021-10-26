@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/pgp-backup-card(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://docs.google.com/document/d/1iBPaVWSJFuWGpJmkvTyKw_6fsqPLURZ6yzvqZKIvUtQ/edit"
+      }
+    },
+    {
       "src": "^/renata-sikova-pc-recovery-card(/|)$",
       "status": 302,
       "headers": {
