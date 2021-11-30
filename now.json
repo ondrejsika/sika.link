@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/chat(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://tlk.io/sika"
+      }
+    },
+    {
       "src": "^/pgp-backup-card(/|)$",
       "status": 302,
       "headers": {
