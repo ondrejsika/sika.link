@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/devopslive28(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/ondrejsika/2022-01-19-devops-live-cloudflare-argo-tunnel"
+      }
+    },
+    {
       "src": "^/chat(/|)$",
       "status": 302,
       "headers": {
