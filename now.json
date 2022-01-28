@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/terminy(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.cz/verejne-terminy"
+      }
+    },
+    {
       "src": "^/skoleni(/|)$",
       "status": 302,
       "headers": {
