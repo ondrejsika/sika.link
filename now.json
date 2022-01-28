@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/skoleni(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.cz/skoleni"
+      }
+    },
+    {
       "src": "^/devopslive28(/|)$",
       "status": 302,
       "headers": {
