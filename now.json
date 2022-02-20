@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/id-card-backup-card(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://docs.google.com/document/d/1vea8mGUPw5OjXQMVdtIRDqXNx5zRARbh_DFb0JjDO7A/edit"
+      }
+    },
+    {
       "src": "^/diskuze(/|)$",
       "status": 302,
       "headers": {
