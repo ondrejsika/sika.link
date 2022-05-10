@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/next(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.cz/next"
+      }
+    },
+    {
       "src": "^/slides(/|)$",
       "status": 302,
       "headers": {
