@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/if22(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/ondrejsika/go-cli-tool-workshop-2022"
+      }
+    },
+    {
       "src": "^/next(/|)$",
       "status": 302,
       "headers": {
