@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/vmug22(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/ondrejsika/vmug-tanzu-kubernetes-cluster-api"
+      }
+    },
+    {
       "src": "^/if22(/|)$",
       "status": 302,
       "headers": {
