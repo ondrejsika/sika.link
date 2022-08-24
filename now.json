@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/iceland-tips(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrejsika.notion.site/Ondrej-Sika-s-Iceland-Tips-bda91864785f437cb1708ed851d39627"
+      }
+    },
+    {
       "src": "^/vmug22(/|)$",
       "status": 302,
       "headers": {
