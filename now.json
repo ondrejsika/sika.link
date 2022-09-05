@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/meta(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/ondrejsika/meta-training"
+      }
+    },
+    {
       "src": "^/iceland-tips(/|)$",
       "status": 302,
       "headers": {
