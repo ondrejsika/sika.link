@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/okd(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/ondrejsika/okd-training"
+      }
+    },
+    {
       "src": "^/meta(/|)$",
       "status": 302,
       "headers": {
