@@ -601,7 +601,7 @@
       "src": "^/proxmox(/|)$",
       "status": 302,
       "headers": {
-        "Location": "https://github.com/ondrejsika/prometheus-training"
+        "Location": "https://github.com/ondrejsika/proxmox-training"
       }
     },
     {
