@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/kafka(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/ondrejsika/kafka-training"
+      }
+    },
+    {
       "src": "^/okd(/|)$",
       "status": 302,
       "headers": {
