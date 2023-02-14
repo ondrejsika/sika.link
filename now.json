@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/argocd(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/ondrejsika/argocd-training"
+      }
+    },
+    {
       "src": "^/kafka(/|)$",
       "status": 302,
       "headers": {
