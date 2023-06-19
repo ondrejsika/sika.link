@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/gh-workshop-custom-terraform-provider(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/ondrejsika/workshop-custom-terraform-provider"
+      }
+    },
+    {
       "src": "^/argocd(/|)$",
       "status": 302,
       "headers": {
