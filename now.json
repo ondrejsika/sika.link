@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/gh-demo-cloud-provider(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/ondrejsika/demo-cloud-provider"
+      }
+    },
+    {
       "src": "^/gh-workshop-custom-terraform-provider(/|)$",
       "status": 302,
       "headers": {
