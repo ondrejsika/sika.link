@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/terraform-registry-demo2(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://registry.terraform.io/providers/ondrejsika/demo2/latest"
+      }
+    },
+    {
       "src": "^/gh-terraform-provider-demo2(/|)$",
       "status": 302,
       "headers": {
