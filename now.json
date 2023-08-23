@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/ansible-pdf(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.cz/content/pdf/Ondrej_Sika_DevOps__Course__Ansible__2023-08-22__v1.pdf"
+      }
+    },
+    {
       "src": "^/elk-pdf(/|)$",
       "status": 302,
       "headers": {
