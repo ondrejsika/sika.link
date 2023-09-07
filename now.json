@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/terraform-pdf(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://ondrej-sika.cz/content/pdf/Ondrej_Sika_DevOps__Course__Terraform__2023-02-08__v1.pdf"
+      }
+    },
+    {
       "src": "^/argocd-pdf(/|)$",
       "status": 302,
       "headers": {
