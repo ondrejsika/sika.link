@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/git-gfr(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://docs.google.com/document/d/1Bb9TrHvJn2x9VUbxkaIke9cIEk6qdNK8Ye__P36x9g8/edit"
+      }
+    },
+    {
       "src": "^/terraform-pdf(/|)$",
       "status": 302,
       "headers": {
