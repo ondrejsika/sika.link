@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/linuxdays2023$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/ondrejsika/linuxdays2023-keycloak"
+      }
+    },
+    {
       "src": "^/git-gfr(/|)$",
       "status": 302,
       "headers": {
