@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/skoleni-terraform-06-11-2023$",
+      "status": 302,
+      "headers": {
+        "Location": "https://bit.ly/45LoWQO"
+      }
+    },
+    {
       "src": "^/linuxdays2023$",
       "status": 302,
       "headers": {
