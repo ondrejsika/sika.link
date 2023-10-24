@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/skoleni-cloudflare-21-11-2023$",
+      "status": 302,
+      "headers": {
+        "Location": "https://bit.ly/3QcxnPa"
+      }
+    },
+    {
       "src": "^/skoleni-argocd-20-11-2023$",
       "status": 302,
       "headers": {
