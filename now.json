@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/ceps23$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/ondrejsika/training-openshift-ceps23"
+      }
+    },
+    {
       "src": "^/skoleni-cloudflare-21-11-2023$",
       "status": 302,
       "headers": {
