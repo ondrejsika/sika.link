@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/sikalabs-support-create-new-ticket$",
+      "status": 302,
+      "headers": {
+        "Location": "https://sikalabs.freshdesk.com/support/tickets/new"
+      }
+    },
+    {
       "src": "^/ceps23$",
       "status": 302,
       "headers": {
