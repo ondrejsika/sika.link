@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/devops-2024-02-07(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://docs.google.com/document/d/1ZTYJ17Fbv3dOSoGG1ypDUwFrBmZekYDuFNPxFSm0ULY/edit"
+      }
+    },
+    {
       "src": "^/sikalabs-support-create-new-ticket$",
       "status": 302,
       "headers": {
