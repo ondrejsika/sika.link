@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/rpc-elk-2024-02-21(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://docs.google.com/document/d/1G5ScwBBQMbvAtTtG6TLBIXdcEQwWBKCtaIMuM3DS0ik/edit"
+      }
+    },
+    {
       "src": "^/devops-2024-02-07(/|)$",
       "status": 302,
       "headers": {
