@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/barcamp20-2024-quiz(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://docs.google.com/forms/d/1h1VgIU34suEMFmgOSb1kquLc_XJ6ei-V21R7uonrJH8/viewform?edit_requested=true"
+      }
+    },
+    {
       "src": "^/barcamp20-2024(/|)$",
       "status": 302,
       "headers": {
