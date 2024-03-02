@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/barcamp20-2024(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://github.com/ondrejsika/barcamp20-2024"
+      }
+    },
+    {
       "src": "^/rpc-elk-2024-02-21(/|)$",
       "status": 302,
       "headers": {
