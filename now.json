@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/odlehla24(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://maps.app.goo.gl/gHpVsYAigLV414G46"
+      }
+    },
+    {
       "src": "^/barcamp20-2024-quiz(/|)$",
       "status": 302,
       "headers": {
