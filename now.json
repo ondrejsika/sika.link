@@ -3,6 +3,13 @@
   "name": "sika.link",
   "routes": [
     {
+      "src": "^/terraform-2024-03-26(/|)$",
+      "status": 302,
+      "headers": {
+        "Location": "https://docs.google.com/document/d/1ssFx_H750zS6oWRxJ3pCOxmy1GsNmrSvOoTaoSisjxc/edit"
+      }
+    },
+    {
       "src": "^/odlehla24(/|)$",
       "status": 302,
       "headers": {
